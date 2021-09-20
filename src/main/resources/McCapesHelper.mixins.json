@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.ij6.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mccapeshelper.refmap.json",
+  "mixins": [
+    "MixinPauseMenu"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
